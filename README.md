@@ -1,38 +1,37 @@
 # Machine Learning Projects
 
-This repository contains Machine Learning projects built during my learning journey, covering both beginner and intermediate-level concepts.
+A collection of ML projects covering regression, classification, and neural networks
+on real-world datasets.
 
-## Projects Overview
+---
 
-### Beginner Projects
-- **Car Price Prediction**  
-  Built a regression model to predict car prices using basic Machine Learning techniques.
+## Projects
 
-- **House Price Prediction**  
-  Implemented a regression model to understand feature impact on house prices.
+### Car Price Prediction
+Regression model to predict car prices based on features like brand, mileage, and year.
+**Tech:** Python, Pandas, Scikit-learn
 
-> These projects helped me understand data preprocessing, feature selection, and basic model training.
+### House Price Prediction
+Regression model analyzing feature impact on house prices with EDA and feature selection.
+**Tech:** Python, Pandas, Scikit-learn, Matplotlib
 
-### Intermediate Projects
-- **Laptop Price Prediction**  
-  Worked on a messy real-world dataset and trained multiple models:
-  - Linear Regression  
-  - Decision Tree  
-  - XGBoost Regressor  
-  Compared model performance to improve accuracy.
+### Laptop Price Prediction
+Multi-model comparison on a messy real-world dataset.
+Models tested: Linear Regression, Decision Tree, XGBoost
+**Tech:** Python, XGBoost, Scikit-learn
 
-- **Income Dataset Classification (>50K / <50K)**  
-  Solved a binary classification problem using an Artificial Neural Network (ANN) to predict income category.
+### Income Classification (>50K / <50K)
+Binary classification using ANN to predict income category from census data.
+**Tech:** Python, TensorFlow/Keras, Pandas
 
-- **XGBoost Classifier Experiment**  
-  Explored how XGBoost works for classification problems and evaluated model performance.
+### XGBoost Classifier
+Explored XGBoost for classification — hyperparameter tuning and performance evaluation.
+**Tech:** Python, XGBoost, Scikit-learn
+
+---
 
 ## Tech Stack
-- Python
-- NumPy, Pandas, Matplotlib
-- Scikit-learn
-- XGBoost
-- Basic Neural Networks (ANN)
+Python · Pandas · NumPy · Matplotlib · Scikit-learn · XGBoost · TensorFlow/Keras
+```
 
-## Purpose
-These projects represent my progression from beginner to intermediate Machine Learning concepts and helped me build strong fundamentals before moving into Deep Learning projects.
+---
